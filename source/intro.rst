@@ -174,5 +174,25 @@ You should get back something like: GNU nano version 2.2.6 (compiled 20:32:12, D
 3. It should tell you how much disc space nano will take, and ask if you're sure you want to install (Y/n). Type: y
 4. Hit the 'Enter' key.
 5. You should be done! You can check that it installed properly by typing: nano --version
-
 Congratulations! You are now officially ready to roll!
+
+=================
+Post Installation
+=================
+
+In the next section we will focus on connecting to your new Virtual Machine from the host computer. If your host computer is the Windows you will need to install the Putty application. If your host computer is a Mac you will can use the Terminal Application. 
+
+The Terminal Applications is found in the Utilities Directory under the Applications directory of all Mac OSX versions. Launch the Terminal application by double clicking and skip the next section.
+
+
+Installing Putty
+----------------
+
+If you don't already have it putty can be installed by downloading the software from `the Putty Homepage <http://www.chiark.greenend.org.uk/~sgtatham/putty/>` 
+
+1. Download and run the current setup executable.
+2. The default installation location is recommended
+3. The Start Menu folder is simply the name of the sub directory under which your PuTTY shortcuts will be located. The default value should be fine.
+
+Launch the Putty application and follow the steps in the next section.
+
