@@ -12,13 +12,17 @@ Downloading VMWare Player and Ubuntu
 To get started, you'll need to download VMWare Player. You will need administrator privileges on your machine to install this!
 
 1. Start by going to www.vmware.com/download/player
+
 	1. The page will redirect - scroll down to VMWare Player and choose "Download Product." 
     2. Look for "VMWare Player and VMWare Player Plus for Windows" and choose "Download."
     3. Leave yourself some time, as it takes a while to download.
+
 2. When the .exe file is done downloading, double-click it wherever you've saved it (probably your Downloads folder).
+
 	1. A pop-up box will open that says "Do you want to run this file?" Click "Run."
     2. Accept the user agreement.
     3. A new window will pop up with an install sequence - you should be able to accept any defaults and go through the sequence quickly.
+
 3. If VMWare Player doesn't open automatically, go into your Programs menu and open it.
 4. You will now see a new window - at the top should be "Welcome to VMWare Player," and the first option beneath that should be "Create a New Virtual Machine." 
 
@@ -28,9 +32,11 @@ Downloading Ubuntu
 ------------------
 
 1. Start by going to http://www.ubuntu.com/download/desktop and choose Ubuntu 12.04 LTS.
+
 	1. Choose Ubuntu 12.04 LTS (there will be an option to select your operating system above the orange download button).
     2. This will take you to a page asking you to donate to Ubuntu. If you don't want to donate, you can scroll to the bottom for the "Not now, take me to the download" link.
 	3. Your file should start downloading. Again, this can take a while to download, so leave yourself some time.
+
 2. That's it! You're done.
 
 Installing Ubuntu on your Virtual Machine
@@ -39,14 +45,18 @@ Now we're starting to get to the fun part!
 
 1. Go back to your VMWare Player window that says "Create a new Virtual Machine."
 2. A second window should pop up which says "Welcome to the New Virtual Machine Wizard." It asks you how you will install the operating system.
+
 	1. Choose the option "Installer disc image file (iso):"
     2. Browse to where you saved your Ubuntu file (probably your Downloads folder) and choose that file ("ubuntu-12.04.4-desktop-amd64.iso")
     3. Click "Next"
+
 3. You will move on to "Easy Install Information"
+
 	1. Set your name as it will display under Full name
 	2. Set a name for your username 
 	3. Set a name for your password
 	4. Click "Next"
+
 4. Give your virtual machine a name (maybe something like "PythonClass").
 5. Accept the default location and click "Next."
 6. It will ask you about the disk capacity - maximum size and whether or not to split the virtual disk into multiple files. Accept the defaults and click "Next."
@@ -113,9 +123,11 @@ Downloading Ubuntu
 ------------------
 
 1. Start by going to http://www.ubuntu.com/download/desktop and choose Ubuntu 12.04 LTS.
+
 	1. Choose Ubuntu 12.04 LTS (there will be an option to select your operating system above the orange download button).
     2. This will take you to a page asking you to donate to Ubuntu. If you don't want to donate, you can scroll to the bottom for the "Not now, take me to the download" link.
 	3. Your file should start downloading. Again, this can take a while to download, so leave yourself some time.
+
 2. That's it! You're done.
 
 Installing Ubuntu on your Virtual Machine
@@ -126,16 +138,19 @@ We're starting to get to the fun part!
 2. The window should say "Select the Installation Method."
 3. Make sure the "Install form disc or image" option is selected, and then click "Continue."
 4. You should come to a new window which says, "Choose an operating system installation disc or image:" over a box which will be blank.
+
 	1. Choose the button toward the bottom, "Use another disc or disc image."
     2. In the window that pops up, browse to wherever you saved the Ubuntu file you just downloaded (for me, it's my downloads folder).
     3. Find the file "ubuntu-12.04.4-desktop-amd64.iso" and choose "Open."
     4. Ubuntu should now be listed as an option and selected in the window under "Choose an operating system installation disc or image."
     5. Choose "Continue."
     6. Choose "Easy Install."
+
     	1. Set your name as it will display.
         2. Set a name for your username (Account Name).
         3. Set a password.
         4. Make sure the drop-down menu at the bottom says "The virtual machine can: Read & Write."
+        
      7. Click "Continue."
      8. Double-check your settings and click "Finish."
 
