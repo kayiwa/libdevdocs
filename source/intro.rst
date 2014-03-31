@@ -81,11 +81,12 @@ To double-check that Python is installed on your machine (it should come with yo
 You should get back something like: Python 2.7.3
  
 **If Python is not installed:**
-1. Type: ``sudo apt-get install python2.7``
-2. It will ask for your password - type that in.
-3. It should tell you how much disc space nano will take, and ask if you're sure you want to install (Y/n). Type: y
-4. Hit the 'Enter' key.
-5. You should be done! You can check that it installed properly by typing: python --version
+
+    1. Type: ``sudo apt-get install python2.7``
+    2. It will ask for your password - type that in.
+    3. It should tell you how much disc space nano will take, and ask if you're sure you want to install (Y/n). Type: y
+    4. Hit the 'Enter' key.
+    5. You should be done! You can check that it installed properly by typing: python --version
  
 Installing the nano text editor
 -------------------------------
@@ -93,11 +94,12 @@ Python is already installed on your machine, but your machine will still need a 
 You should get back something like: GNU nano version 2.2.6 (compiled 20:32:12, Dec 3 2010) ...
  
 **If nano is not installed:**
-1. Type: ``sudo apt-get install nano``
-2. It will ask for your password - type that in.
-3. It should tell you how much disc space nano will take, and ask if you're sure you want to install (Y/n). Type: y
-4. Hit the 'Enter' key.
-5. You should be done! You can check that it installed properly by typing: nano --version
+
+    1. Type: ``sudo apt-get install nano``
+    2. It will ask for your password - type that in.
+    3. It should tell you how much disc space nano will take, and ask if you're sure you want to install (Y/n). Type: y
+    4. Hit the 'Enter' key.
+    5. You should be done! You can check that it installed properly by typing: nano --version
 
 Congratulations! You are now officially ready to roll!
 
@@ -172,11 +174,12 @@ To double-check that Python is installed on your machine (it should come with yo
 You should get back something like: Python 2.7.3
 
 **If Python is not installed:**
-1. Type: ``sudo apt-get install python2.7``
-2. It will ask for your password - type that in.
-3. It should tell you how much disc space nano will take, and ask if you're sure you want to install (Y/n). Type: y
-4. Hit the 'Enter' key.
-5. You should be done! You can check that it installed properly by typing: python --version
+
+    1. Type: ``sudo apt-get install python2.7``
+    2. It will ask for your password - type that in.
+    3. It should tell you how much disc space nano will take, and ask if you're sure you want to install (Y/n). Type: y
+    4. Hit the 'Enter' key.
+    5. You should be done! You can check that it installed properly by typing: python --version
 
 Installing the nano text editor
 -------------------------------
@@ -184,11 +187,12 @@ Python is already installed on your machine, but your machine will still need a 
 You should get back something like: GNU nano version 2.2.6 (compiled 20:32:12, Dec 3 2010) ...
 
 **If nano is not installed:**
-1. Type: ``sudo apt-get install nano``
-2. It will ask for your password - type that in.
-3. It should tell you how much disc space nano will take, and ask if you're sure you want to install (Y/n). Type: y
-4. Hit the 'Enter' key.
-5. You should be done! You can check that it installed properly by typing: nano --version
+
+    1. Type: ``sudo apt-get install nano``
+    2. It will ask for your password - type that in.
+    3. It should tell you how much disc space nano will take, and ask if you're sure you want to install (Y/n). Type: y
+    4. Hit the 'Enter' key.
+    5. You should be done! You can check that it installed properly by typing: nano --version
 Congratulations! You are now officially ready to roll!
 
 =================
