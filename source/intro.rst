@@ -70,7 +70,7 @@ Installing ssh-server
 ---------------------
 Now we're really getting somewhere. 
 
-1. In your command-line interface, type: sudo apt-get install openssh-server
+1. In your command-line interface, type: ``sudo apt-get install openssh-server``
 2. Type in your password.
 3. After a little thinking, your machine should tell you how much space the installation will take, and ask you if you want to proceed. Type: y
 4. Hit the 'Enter' key.
@@ -81,7 +81,7 @@ To double-check that Python is installed on your machine (it should come with yo
 You should get back something like: Python 2.7.3
  
 **If Python is not installed:**
-1. Type: sudo apt-get install python2.7
+1. Type: ``sudo apt-get install python2.7``
 2. It will ask for your password - type that in.
 3. It should tell you how much disc space nano will take, and ask if you're sure you want to install (Y/n). Type: y
 4. Hit the 'Enter' key.
@@ -93,7 +93,7 @@ Python is already installed on your machine, but your machine will still need a 
 You should get back something like: GNU nano version 2.2.6 (compiled 20:32:12, Dec 3 2010) ...
  
 **If nano is not installed:**
-1. Type: sudo apt-get install nano
+1. Type: ``sudo apt-get install nano``
 2. It will ask for your password - type that in.
 3. It should tell you how much disc space nano will take, and ask if you're sure you want to install (Y/n). Type: y
 4. Hit the 'Enter' key.
@@ -161,7 +161,7 @@ Installing ssh-server
 ---------------------
 Now we're really getting somewhere. 
 
-1. In your command-line interface, type: sudo apt-get install openssh-server
+1. In your command-line interface, type: ``sudo apt-get install openssh-server``
 2. Type in your password.
 3. After a little thinking, your machine should tell you how much space the installation will take, and ask you if you want to proceed. Type: y
 4. Hit the 'Enter' key.
@@ -172,7 +172,7 @@ To double-check that Python is installed on your machine (it should come with yo
 You should get back something like: Python 2.7.3
 
 **If Python is not installed:**
-1. Type: sudo apt-get install python2.7
+1. Type: ``sudo apt-get install python2.7``
 2. It will ask for your password - type that in.
 3. It should tell you how much disc space nano will take, and ask if you're sure you want to install (Y/n). Type: y
 4. Hit the 'Enter' key.
@@ -184,7 +184,7 @@ Python is already installed on your machine, but your machine will still need a 
 You should get back something like: GNU nano version 2.2.6 (compiled 20:32:12, Dec 3 2010) ...
 
 **If nano is not installed:**
-1. Type: sudo apt-get install nano
+1. Type: ``sudo apt-get install nano``
 2. It will ask for your password - type that in.
 3. It should tell you how much disc space nano will take, and ask if you're sure you want to install (Y/n). Type: y
 4. Hit the 'Enter' key.
