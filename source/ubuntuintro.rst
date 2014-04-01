@@ -30,3 +30,14 @@ From within the Terminal type ``ifconfig``
                 
 
 From the results we are interested in the numbers after inet addr in the eth0 device. This is the IP address of your Virtual Machine. Write this down for future use. In the fake example above the IP address of our Virtual Machine is 192.168.0.14. 
+
+Connecting from Windows
+-----------------------
+
+For the rest of the tutorial these will be the steps used to connect to your Virtual Machine. Enter the IP address in the step above and click on the Open. On your first connection you will get a pop up key warning you about the fingerprint of the server you are about to connect to. Accept the keys and enter your username and password in the window that follows. 
+
+
+Connecting from Mac OSX
+-----------------------
+
+For the rest of the tutorial these will be the steps used to connect to your Virtual Machine. Type the following in your Terminal.app (this was the last step in the last segment) ``ssh -l username IP Address`` So if your username was jondoe on my fake Virtual Machine above the steps would be ``ssh -l jondoe 192.168.0.14`` On your first connection you will get a warning about the fingerprint of the server you are about to connect to. Accept the keys and enter your password.
