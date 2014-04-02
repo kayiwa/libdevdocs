@@ -59,4 +59,4 @@ It is extremely important to heed this advice. Even though you are running a vir
 	sudo apt-get update        # Fetches the list of available updates from the Ubuntu project
 	sudo apt-get upgrade	   # Upgrades your Ubuntu virtual machine
 
-In the next segment we will get more comfortable with general computation from the commandline. To logout of your virtual machine type exit. You can then shutdown your VMWare Player Application or VM Fusion application.
+In the next segment we will get more comfortable with general computation from the commandline. To logout of your virtual machine type ``exit`` . You can then shutdown your VMWare Player Application or VM Fusion application.
