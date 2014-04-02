@@ -41,3 +41,22 @@ Connecting from Mac OSX
 -----------------------
 
 For the rest of the tutorial these will be the steps used to connect to your Virtual Machine. Type the following in your Terminal.app (this was the last step in the last segment) ``ssh -l username IP Address`` So if your username was jondoe on my fake Virtual Machine above the steps would be ``ssh -l jondoe 192.168.0.14`` On your first connection you will get a warning about the fingerprint of the server you are about to connect to. Accept the keys and enter your password.
+
+Administration Basics
+=====================
+
+On your first log in it is possible that you will see a message resembling the one I saw while creating this tutorial.
+
+.. code::
+
+	88 packages can be updated.
+	80 updates are security updates
+
+It is extremely important to heed this advice. Even though you are running a virtual machine (incidentally this is the reason for lagging behind) it is important to get into good administration habits early. The way to fix this is to type the following.
+
+.. code::
+
+	sudo apt-get update        # Fetches the list of available updates from the Ubuntu project
+	sudo apt-get upgrade	   # Upgrades your Ubuntu virtual machine
+
+In the next segment we will get more comfortable with general computation from the commandline. To logout of your virtual machine type exit. You can then shutdown your VMWare Player Application or VM Fusion application.
