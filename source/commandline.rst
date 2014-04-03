@@ -31,7 +31,7 @@ Before we proceed much futher it is important to remember that all UNIX systems 
 	
 	ls [options][location]
 
-The square brackets above are optional. He are more examples.
+The square brackets above are optional. Here are more examples.
 
 .. code::
 
