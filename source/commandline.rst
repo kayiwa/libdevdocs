@@ -31,7 +31,7 @@ Before we proceed much futher it is important to remember that all UNIX systems 
 	
 	ls [options][location]
 
-The square brackets above are optional. Here are more examples.
+The square brackets above are optional. Here is an example with the echo of the results shown.
 
 .. code::
 
@@ -48,6 +48,25 @@ The square brackets above are optional. Here are more examples.
 	drwxr-xr-x  2 fkayiwa fkayiwa 4096 Dec  9 17:32 Public
 	drwxr-xr-x  2 fkayiwa fkayiwa 4096 Dec  9 17:32 Templates
 	drwxr-xr-x  2 fkayiwa fkayiwa 4096 Dec  9 17:32 Videos
+
+So what did we just do? 
+
+* The ``ls`` will list the contents of our current directory.
+* The ``ls -l`` adds the optional switch ( -l)  to do the long listing. A long listing has the following:
+	
+	* First character indicates whether it is a normal file ( - ) or directory ( d )
+	* Next 9 characters are permissions for the file or directory (we'll learn more about them in a later segment)
+	* The next file is the number of blocks.
+	* The next field is the owner of the file or directory (fkayiwa/root in the examples above).
+	* The next field is the group the file or directory belongs to (fkayiwa).
+	* Following this is the file size.
+	* Next up is the file modification time.
+	* The actual name of the file or directory.
+
+Here is another example.
+
+.. code::
+
 	username@hostname:~$ls -l /var
 	total 52
 	drwxrws---  5 archivematica archivematica 4096 Mar  6 11:38 archivematica
@@ -66,6 +85,10 @@ The square brackets above are optional. Here are more examples.
 	drwxrwxrwt  2 root          root          4096 Apr 19  2012 tmp
 	drwxr-xr-x  2 root          root          4096 Dec 11 11:59 www
 
+* We ran ``ls`` with a command line argument ( /var ). When we do this it tells ``ls`` not to list our current directory but instead to list that directories contents.
 
+Spend a little time perusing the ``ls`` manual by doing the following. ``man ls``
 
+Paths
+-----
 
