@@ -92,3 +92,60 @@ Spend a little time perusing the ``ls`` manual by doing the following. ``man ls`
 Paths
 -----
 
+The previous section touched on something about navigating your Ubuntu machine, namely the paths on the operating system. Understanding paths is essential in using your new computer. Whenever we refer to a file or directory on the command line we are in fact referring to the actual path to it.
+
+Referring to paths can be done using the absolute path or a relative path. 
+
+At the top of the unix system is what is called the root directory. It is denoted by a single dash (/). It has sub-directories which have other sub-directories contained within them. Files can reside in any of these directories. 
+
+Absolute paths refer to the location relative to the root directory. Relative paths specify location based on your current working directory. The example below will illustrate what we mean.
+
+.. code::
+
+    username@hostname:~$ pwd
+    /home/fkayiwa
+    username@hostname:~$
+    username@hostname: ls Desktop
+    test.mrc
+    username@hostname:~$ ls /home/fkayiwa/Desktop
+    test.mrc
+    username@hostname:~$
+
+So what just happened?
+
+* We ran ``pwd`` to verify where we were on the filesystem.
+* We ran ``ls`` providing it with a relative path. Desktop is a directory in our current location. We would get different results depending on where we are. 
+* We finally ran ``ls`` providing and absolute path. This will provide the same output regardless of the location we ran it from.
+
+Here are a few more tips that can help build on your new knowledge on paths. 
+
+* ~ (tilde) - This is a shortcut for your home directory. So if the user fkayiwa above wanted to head to their home directory. Typing ~/Desktop in the example above is the equivalent of typing /home/fkayiwa/Desktop
+* . (dot) - This is a reference to your current directory. We will see more on this later.
+* . . (dotdot) - This is a reference to the parent directory. You can use this several times to keep going up the heirarchy.
+
+A few more examples to explain this.
+
+.. code::
+        
+    username@hostname:~$ pwd
+    /home/fkayiwa
+    username@hostname:~$
+    username@hostname:~$ ls ~/Desktop
+    test.mrc
+    usename@hostname:~$ ls ./Desktop
+    test.mrc
+    username@hostname:~$ ls /home/fkayiwa/Desktop
+    test.mrc
+    username@hostname:~$ ls ../../
+    bin boot lib lost+found proc selinux usr boot home lib32
+    ...
+    username@hostname:~$ ls /
+    bin boot lib lost+found proc selinux usr boot home lib32
+    ...
+
+Spend time listing the content of various directories on your filesystem and familiarize yourself on how the elements of building a path. 
+
+Moving around your filesystem
+-----------------------------
+
+In order to move around your filesystem we use the ``cd`` command which stands for change directory. 
