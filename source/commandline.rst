@@ -149,3 +149,49 @@ Moving around your filesystem
 -----------------------------
 
 In order to move around your filesystem we use the ``cd`` command which stands for change directory. 
+
+A handy tip to remember is if you run the command ``cd`` without any arguments then it will always take you back to your home directory.
+
+Otherwise the ``cd`` command can be used much like the ``ls`` before to change into absolute or relative paths as some of the examples below will show.
+
+.. code::
+
+    username@hostname:~$ pwd
+    /home/fkayiwa
+    username@hostname:~$ cd Desktop
+    username@hostname:~$ ls
+    test.mrc
+    username@hostname:~$ cd /
+    username@hostname:~$ pwd
+    /
+    username@hostname:~$ ls 
+    bin boot lib lost+found proc selinux usr boot home lib32
+    ...
+    username@hostname:~$ cd ~/Desktop
+    username@hostname:~$ pwd
+    /home/fkayiwa/Desktop
+    username@hostname:~$ cd ../../
+    username@hostname:~$ pwd
+    /home
+    username@hostname:~$ cd
+    username@hostname:~$ pwd
+    /home/fkayiwa
+
+Another handy tip when navigating is Tab Completion. Typing out these paths can become tedious. If you're like me, you're also prone to making typos. The command line has a nice little mechanism to help us in this respect. It's called Tab Completion.
+
+When you start typing a path (anywhere on the command line, you're not just limited to certain commands) you may hit the Tab key on your keyboard at any time which will invoke an auto complete action. If nothing happens then that means there are several possibilities. If you hit Tab again it will show you those possibilities. You may then continue typing and hit Tab again and it will again try to auto complete for you.
+
+It's kinda hard to demonstrate here so it's probably best if you try it yourself. If you start typing cd /hTab/<beginning of your username>Tab you'll get a feel for how it works.
+
+Summary
+-------
+
+Commands we learned about
+
+.. code::
+
+    pwd - Present Working Directory
+    ls - List the contents of a directory
+    cd - Change directories
+
+
