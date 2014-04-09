@@ -9,6 +9,7 @@ This document (which was initially from a workshop) is aimed at helping libraria
    intro
    ubuntuintro
    commandline
+   commandlinefiles
    shell
 
 
