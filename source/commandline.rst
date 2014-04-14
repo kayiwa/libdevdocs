@@ -1,6 +1,6 @@
-===========
-Commandline
-===========
+============
+Command Line
+============
 
 You may be asking yourself about the virtue using the Commandline. In many way the Graphic User Interface is friendlier. For many users it feels familiar and to other Operating Systems. The reason for learning the commandline is primarily a way to introduce you to what administering a server that could be in a remote location where you have no physical access. Your Ubuntu virtual machine is a good place to get practice. This segment is driven towards some repetitive exercises with a goal to make you comfortable on your Ubuntu virtual machine.
 
