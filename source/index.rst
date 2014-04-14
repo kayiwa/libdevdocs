@@ -10,6 +10,7 @@ This document (which was initially from a workshop) is aimed at helping libraria
    ubuntuintro
    commandline
    commandlinefiles
+   commandlinepermissions
    shell
 
 
